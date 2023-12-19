@@ -17,7 +17,7 @@ module.exports = {
     hardhat: {
       chainId: 31337,
       gas: 20000000,
-    },
+    },/*
     bsc: {
       chainId: 56,
       url: process.env.BSC_URL,
@@ -26,14 +26,14 @@ module.exports = {
       chainId: 97,
       url: process.env.BSCTEST_URL,
     },
-    // arbitrumtest: {
-    //   chainId: 421613,
-    //   url: process.env.ARBITRUMTEST_URL,
-    //   account: [process.env.JOJO_LIQUIDATE_PK],
-    //   gas: 2100000,
-    //   gasPrice: 8000000000,
-    //   allowUnlimitedContractSize: true
-    // },
+    arbitrumtest: {
+      chainId: 421613,
+      url: process.env.ARBITRUMTEST_URL,
+      account: [process.env.JOJO_LIQUIDATE_PK],
+      gas: 2100000,
+      gasPrice: 8000000000,
+      allowUnlimitedContractSize: true
+    },
     arbitrum: {
       chainId: 42161,
       url: process.env.ARBITRUM_URL,
@@ -41,7 +41,7 @@ module.exports = {
       gas: 2100000,
       gasPrice: 10000000000,
       allowUnlimitedContractSize: true
-    }
+    }*/
   },
   etherscan: {
     apiKey: {
